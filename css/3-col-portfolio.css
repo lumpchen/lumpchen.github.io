@@ -9,9 +9,24 @@ body {
 }
 
 .portfolio-item {
-    margin-bottom: 25px;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item:hover img {
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+
+.portfolio-item:hover p {
+    color: red;
+    font-size: 18pt;
 }
 
 footer {
     margin: 50px 0;
+}
+
+.floattext {
+	font-size: 16pt;
+	text-transform: uppercase;
 }

@@ -18,12 +18,11 @@ body {
 }
 
 .portfolio-item:hover p {
-    color: red;
-    font-size: 18pt;
+    font-size: 22pt;
 }
 
 footer {
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .floattext {
